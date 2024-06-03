@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Secured SMS</string>
+    <string name="back">Back</string>
+    <string name="inbox">Inbox</string>
+    <string name="sent">Sent</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="message">Message</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="login">Send</string>
+    <string name="send_message">Send Message</string>
+    <string name="enter_your_number">Enter recipient number</string>
+    <string name="no_data">No data</string>
+</resources>

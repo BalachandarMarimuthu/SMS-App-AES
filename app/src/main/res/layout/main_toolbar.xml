@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:background="@color/white"
+    android:elevation="@dimen/_5sdp"
+    android:paddingLeft="@dimen/_12sdp"
+    android:paddingRight="@dimen/_12sdp">
+
+    <ImageView
+        android:id="@+id/tool_back"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/back"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/arrow_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tool_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:id="@+id/history"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/back"
+        android:padding="@dimen/_6sdp"
+        android:visibility="gone" />
+
+</RelativeLayout>
